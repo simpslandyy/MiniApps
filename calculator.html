@@ -1,0 +1,69 @@
+<html>
+	<head> 
+		<title> Calculator </title> 
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="./calc.css" type="text/css">
+
+		<!-- Open Sans Condensed -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+		</script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+		</script>
+
+		<script src="./calculate.js"></script>
+
+	</head>
+	<body>
+		<div class="container">
+			<h1> Calculator </h1>
+				<div class="frame">
+				<div class="visual"><input type="text" id="screen" readonly></div>
+				<div class="values">
+					<div class="btn-group" role="group" aria-label="clear">
+						<button type="button" class="btn btn-default" onclick='displayB("")'> Clear </button>
+					</div>
+					<div class="btn-group" role="group" aria-label="sevtonine">
+						<button type="button" class="btn btn-default" onclick='displayA("7")'> 7 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("8")'> 8 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("9")'> 9 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("(")'> ( </button>
+						<button type="button" class="btn btn-default" onclick='displayA(")")'> ) </button>
+					</div>
+					<br>
+					<div class="btn-group" role="group" aria-label="fourtofive">
+						<button type="button" class="btn btn-default" onclick='displayA("4")'> 4 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("5")'> 5 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("6")'> 6 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("*")'> x </button>
+						<button type="button" class="btn btn-default" onclick='displayA("8")'> \ </button>
+					</div>
+					<br>
+					<div class="btn-group" role="group" aria-label="onetothree">
+						<button type="button" class="btn btn-default" onclick='displayA("1")'> 1 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("2")'> 2 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("3")'> 3 </button>
+						<button type="button" class="btn btn-default" onclick='displayA("+")'> + </button>
+						<button type="button" class="btn btn-default" onclick='displayA("-")'> - </button>
+					</div>
+					<br>
+					<div class="btn-group" role="group" aria-label="zero">
+						<button type="button" class="btn btn-default" onclick='displayA("0")'> 0 </button>
+						<button type="button" class="btn btn-default" onclick='displayA(".")'> ● </button>
+						<button type="button" class="btn btn-default" onclick='answer()'> Calculate!!! </button>
+					</div>
+				</div>
+				</div>
+		</div>
+	</body>
+
+</html>
+

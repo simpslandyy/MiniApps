@@ -1,0 +1,45 @@
+
+.container h1 {
+	font-family: 'Open Sans Condensed';
+}
+
+.frame {
+	width: 200px;
+	height: 330px;
+	background-color: #002D31;
+	border-radius: 25px;
+	position: relative;
+}
+
+.visual {
+	width: 180px;
+	height: 45px;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	background-color: #3A3A3A;
+	border-radius: 5px;
+}
+
+.visual input {
+	width: 170px;
+	height: 40px;
+	position: relative;
+	top: 2.5px;
+	left: 5px;
+	background-color: #949494;
+	color: #FFFFFF;
+}
+
+.values {
+	left: 10px;
+	top: 30px;
+	position: relative;
+}
+.btn.btn-default {
+	margin: 3px;
+	font-family:  'Open Sans Condensed';
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #3E5C5F;
+}
